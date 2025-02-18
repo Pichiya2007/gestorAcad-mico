@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "67b3e4b72208093158577a2c"
+  },
+  "name": "Luis Angel",
+  "surname": "Pichiyá Sisimit",
+  "username": "lpichiya",
+  "email": "lpichiya@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$n/4q+5B+UgH7s1AEbmoSCg$l44RncnfJObDfHGvg/1+Tu26dsetQx7SqKSfZ4ZDZEk",
+  "role": "TEACHER_ROLE",
+  "course": [],
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-18T01:39:03.180Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T01:39:03.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b3e4db2208093158577a3c"
+  },
+  "name": "Luis as",
+  "surname": "asd asd",
+  "username": "qe",
+  "email": "aaaa@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$ae1PO9AAX+k6XYBSq3nj6g$Av5S0XmT+Gfqr1uV2mK0W9hW9y3Ff6fHIfHRgRxfgeo",
+  "role": "STUDENT_ROLE",
+  "course": [],
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-18T01:39:39.181Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T01:39:39.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b3e5372208093158577a46"
+  },
+  "name": "Luis as",
+  "surname": "asd asd",
+  "username": "a",
+  "email": "a@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$X637kvjoFSw92tJpURIofA$2KvdhQIBpHHNKWHWr3IatjnJCYmWM7+CReFXt96C6+o",
+  "role": "STUDENT_ROLE",
+  "course": [],
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-18T01:41:11.936Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T01:41:11.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b3ef9732769ee73e9f20b6"
+  },
+  "name": "angel",
+  "surname": "angel",
+  "username": "angel",
+  "email": "angel@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$XJVnsM7ZI0biAd7RSV0poA$Eynt9MN0y3cd8KugOE/aoSCgY5T6rEWtNZqdxoU4wa4",
+  "role": "STUDENT_ROLE",
+  "course": [],
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-18T02:25:27.626Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T02:25:27.626Z"
+  }
+}]

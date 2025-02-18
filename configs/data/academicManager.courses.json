@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "67b3ef6932769ee73e9f20b2"
+  },
+  "name": "Matemática",
+  "description": "Curso de prueba",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b3f09632769ee73e9f20bc"
+  },
+  "name": "Física",
+  "description": "Curso de prueba",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b3f0ba32769ee73e9f20bf"
+  },
+  "name": "Práctica Supervisada",
+  "description": "Curso de prueba",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b3f0c632769ee73e9f20c2"
+  },
+  "name": "Psicología",
+  "description": "Curso de prueba",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b3f0d332769ee73e9f20c5"
+  },
+  "name": "Ética",
+  "description": "Curso de prueba",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b405db8320d21fef3fa8f8"
+  },
+  "name": "editado",
+  "description": "editado",
+  "status": true,
+  "__v": 0
+}]

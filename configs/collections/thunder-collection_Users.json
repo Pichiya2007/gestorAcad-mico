@@ -1,0 +1,50 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Users",
+    "collectionId": "d6694838-484c-4438-ab25-df929b13d0c4",
+    "dateExported": "2025-02-18T04:11:04.202Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "950289a7-bdb9-4aaf-a8ea-5847187afd85",
+            "colId": "d6694838-484c-4438-ab25-df929b13d0c4",
+            "containerId": "",
+            "name": "AsignarCurso",
+            "url": "http://localhost:3002/academicManager/v1/users/assignedCourse",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-18T03:26:09.587Z",
+            "modified": "2025-02-18T03:39:39.757Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzZTRiNzIyMDgwOTMxNTg1NzdhMmMiLCJpYXQiOjE3Mzk4NDkyNTksImV4cCI6MTczOTg1Mjg1OX0._n7TX6HRU3Cfcv44EO1Y2pog7a8BHTputd6TvtmoDsc"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"studentId\": \"67b3e4db2208093158577a3c\",\r\n    \"courseId\": [\"67b3f0c632769ee73e9f20c2\", \"67b3f0c632769ee73e9f20c2\", \"67b3f0c632769ee73e9f20c2\"]\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "97eb7680-7504-4072-98b3-9001732afe92",
+            "colId": "d6694838-484c-4438-ab25-df929b13d0c4",
+            "containerId": "",
+            "name": "getCursoAsignado",
+            "url": "http://localhost:3002/academicManager/v1/users/findCourse/67b3e4db2208093158577a3c",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-02-18T03:35:03.870Z",
+            "modified": "2025-02-18T03:38:42.780Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzZTRiNzIyMDgwOTMxNTg1NzdhMmMiLCJpYXQiOjE3Mzk4NDkyNTksImV4cCI6MTczOTg1Mjg1OX0._n7TX6HRU3Cfcv44EO1Y2pog7a8BHTputd6TvtmoDsc"
+                }
+            ]
+        }
+    ],
+    "ref": "0rXy6SkPrWtuwTnPuj-aryAxCzMgzij08o5-SkCWvmmcSNQuzjPFyLFyx-4SuGMPf52Ml_mc_qx9H0Qm5p9n4w"
+}

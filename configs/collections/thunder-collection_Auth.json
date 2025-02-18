@@ -1,0 +1,57 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Auth",
+    "collectionId": "7745d518-24ad-47bf-b73c-c96e61d6df2a",
+    "dateExported": "2025-02-18T04:10:37.984Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4af68d2a-0133-4cb6-909b-b3211f99ed68",
+            "colId": "7745d518-24ad-47bf-b73c-c96e61d6df2a",
+            "containerId": "",
+            "name": "Register",
+            "url": "http://localhost:3002/academicManager/v1/auth/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-18T01:33:36.736Z",
+            "modified": "2025-02-18T02:25:27.645Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"angel\",\n  \"surname\": \"angel\",\n  \"username\": \"angel\",\n  \"email\": \"angel@gmail.com\",\n  \"password\": \"12345678\",\n  \"role\": \"STUDENT_ROLE\",\n  \"estado\": true\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6713bde0-f4e6-4961-8db5-0b5cee0844fa",
+            "colId": "7745d518-24ad-47bf-b73c-c96e61d6df2a",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:3002/academicManager/v1/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-18T01:41:41.342Z",
+            "modified": "2025-02-18T03:27:39.240Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"lpichiya@gmail.com\",\n  \"password\": \"12345678\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1ae0fa83-8b7b-4d09-9385-991a4b8d77ba",
+            "colId": "7745d518-24ad-47bf-b73c-c96e61d6df2a",
+            "containerId": "",
+            "name": "Prueba",
+            "url": "http://localhost:3002/academicManager/v1/users",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-18T01:44:33.134Z",
+            "modified": "2025-02-18T03:27:01.020Z",
+            "headers": []
+        }
+    ],
+    "ref": "WxJrh4idzProtFDfosKgLYV8Q8tRqnTdPxM8iy9-lvV48TwNuSANoqerMVgYRzJ7qe_DtNXrvkudMj-HqoR_5Q"
+}

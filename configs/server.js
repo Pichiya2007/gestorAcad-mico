@@ -8,6 +8,7 @@ import { dbConnection } from './mongo.js';
 import limiter from '../src/middlewares/validar-cant-peticiones.js';
 import authRoutes from '../src/auth/auth.routes.js';
 import userRoutes from '../src/users/user.routes.js'
+import coursesRoutes from '../src/courses/course.routes.js';
 
 const middlewares = (app) => {
     app.use(express.urlencoded({ extended: false }));
@@ -21,6 +22,7 @@ const middlewares = (app) => {
 const routes = (app) => {
     app.use('/academicManager/v1/auth', authRoutes);
     app.use('/academicManager/v1/users', userRoutes);
+    app.use('/academicManager/v1/courses', coursesRoutes);
 }
 
 const conectarDB = async () => {

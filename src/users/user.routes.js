@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { check } from 'express-validator';
-import { getUsers, getUserById, updateUser, deleteUser } from './user.controller.js';
+import { getUsers, getUserById, updateUser, deleteUser, assignCourse, viewCourses } from './user.controller.js';
 import { existeUsuarioById } from '../helpers/db-validator.js';
 import { validarCampos } from '../middlewares/validar-campos.js';
 import { tieneRole } from '../middlewares/validar-roles.js';
@@ -41,6 +41,25 @@ router.delete(
         validarCampos 
     ],
     deleteUser
+)
+
+router.post(
+    '/assignedCourse',
+    [
+        validarJWT,
+        validarCampos,
+        tieneRole('TEACHER_ROLE'),
+    ],
+    assignCourse
+)
+
+router.get(
+    '/findCourse/:id',
+    [
+        validarJWT,
+        validarCampos,
+    ],
+    viewCourses
 )
 
 export default router;

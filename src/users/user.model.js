@@ -31,7 +31,7 @@ const UserSchema = Schema({
         enum: ['TEACHER_ROLE', 'STUDENT_ROLE'],
         default: 'STUDENT_ROLE'
     },
-    course: [{
+    courses: [{
         type: Schema.Types.ObjectId,
         ref: 'Course',
         default: []

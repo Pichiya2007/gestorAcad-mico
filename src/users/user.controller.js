@@ -62,6 +62,14 @@ export const updateUser = async (req, res = response) => {
         
         const { id } = req.params
         const { _id, password, email, ...data } = req.body
+        const autheticatedUser = req.usuario;
+
+        if (autheticatedUser._id.toString() != id) {
+            return res.status(403).json({
+                success: false,
+                msg: 'No tienes permiso para editar esta cuenta.'
+            })
+        }
 
         if (password) {
             data.password = await hash(password);
@@ -88,8 +96,16 @@ export const deleteUser = async (req, res) => {
     try {
         
         const { id } = req.params;
+        const autheticatedUser = req.usuario;
+
+        if (autheticatedUser._id.toString() != id) {
+            return res.status(403).json({
+                success: false,
+                msg: 'No tienes permiso para eliminar esta cuenta'
+            })
+        }
+
         const user = await User.findByIdAndUpdate(id, { estado: false }, { new: true });
-        const autheticatedUser = req.user;
 
         res.status(200).json({
             success: true,

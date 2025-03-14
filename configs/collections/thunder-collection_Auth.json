@@ -2,7 +2,7 @@
     "clientName": "Thunder Client",
     "collectionName": "Auth",
     "collectionId": "7745d518-24ad-47bf-b73c-c96e61d6df2a",
-    "dateExported": "2025-02-18T04:10:37.984Z",
+    "dateExported": "2025-02-24T01:55:42.790Z",
     "version": "1.2",
     "folders": [],
     "requests": [
@@ -11,11 +11,11 @@
             "colId": "7745d518-24ad-47bf-b73c-c96e61d6df2a",
             "containerId": "",
             "name": "Register",
-            "url": "http://localhost:3002/academicManager/v1/auth/register",
+            "url": "http://localhost:3007/onlineSale/v1/auth/register",
             "method": "POST",
             "sortNum": 10000,
             "created": "2025-02-18T01:33:36.736Z",
-            "modified": "2025-02-18T02:25:27.645Z",
+            "modified": "2025-02-20T01:10:36.520Z",
             "headers": [],
             "body": {
                 "type": "json",
@@ -53,5 +53,5 @@
             "headers": []
         }
     ],
-    "ref": "WxJrh4idzProtFDfosKgLYV8Q8tRqnTdPxM8iy9-lvV48TwNuSANoqerMVgYRzJ7qe_DtNXrvkudMj-HqoR_5Q"
+    "ref": "WxJrh4idzProtFDfosKgLUsRA5G-gar7-JMfnUov4j07hXuA9vU7SsB7RcNzXKicRMyoSVAQFDHQERWN6SuOOA"
 }

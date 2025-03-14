@@ -2,7 +2,7 @@
     "clientName": "Thunder Client",
     "collectionName": "Users",
     "collectionId": "d6694838-484c-4438-ab25-df929b13d0c4",
-    "dateExported": "2025-02-18T04:11:04.202Z",
+    "dateExported": "2025-02-24T01:56:12.341Z",
     "version": "1.2",
     "folders": [],
     "requests": [
@@ -15,16 +15,16 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2025-02-18T03:26:09.587Z",
-            "modified": "2025-02-18T03:39:39.757Z",
+            "modified": "2025-02-18T04:29:11.141Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzZTRiNzIyMDgwOTMxNTg1NzdhMmMiLCJpYXQiOjE3Mzk4NDkyNTksImV4cCI6MTczOTg1Mjg1OX0._n7TX6HRU3Cfcv44EO1Y2pog7a8BHTputd6TvtmoDsc"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzZTRiNzIyMDgwOTMxNTg1NzdhMmMiLCJpYXQiOjE3Mzk4NTI5MzMsImV4cCI6MTczOTg1NjUzM30.rpHz5EkS8cBTisBbcKdJNxLQBi4bO2rYxYseGi2nekM"
                 }
             ],
             "body": {
                 "type": "json",
-                "raw": "{\r\n    \"studentId\": \"67b3e4db2208093158577a3c\",\r\n    \"courseId\": [\"67b3f0c632769ee73e9f20c2\", \"67b3f0c632769ee73e9f20c2\", \"67b3f0c632769ee73e9f20c2\"]\r\n}",
+                "raw": "{\n    \"studentId\": \"67b3e4db2208093158577a3c\",\n    \"courseId\": [\"67b3f0d332769ee73e9f20c5\", \"67b3f0ba32769ee73e9f20bf\"]\n}",
                 "form": []
             }
         },
@@ -46,5 +46,5 @@
             ]
         }
     ],
-    "ref": "0rXy6SkPrWtuwTnPuj-aryAxCzMgzij08o5-SkCWvmmcSNQuzjPFyLFyx-4SuGMPf52Ml_mc_qx9H0Qm5p9n4w"
+    "ref": "0rXy6SkPrWtuwTnPuj-ar4S5bZ8gJfvyWr136hkJbU9b4P96-GwiiG_xNeDIcQUxSWHlf5s89prvCmAaw6dXvA"
 }
